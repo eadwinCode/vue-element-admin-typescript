@@ -1,4 +1,4 @@
-export const data = [{
+export const dummyData = [{
     id: 1,
     label: 'Level one 1',
     children: [{

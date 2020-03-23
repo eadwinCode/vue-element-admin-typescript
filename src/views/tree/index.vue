@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { Component, Vue, Watch } from "vue-property-decorator";
-import { data } from './dummydata'
+import { dummyData } from './dummydata'
 import { ElTree } from 'element-ui/types/tree';
 
 @Component({
@@ -24,7 +24,7 @@ import { ElTree } from 'element-ui/types/tree';
 })
 export default class Tree extends Vue {
     private  filterText: string = ''
-    private data:Array<any> = data
+    private data2:Array<any> = dummyData
 
     private defaultProps = {
         children: 'children',

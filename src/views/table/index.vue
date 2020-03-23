@@ -43,7 +43,7 @@ import { getList } from "@/api/table";
 
 @Component({})
 export default class Table extends Vue {
-  private list!: any;
+  private list = [];
   private listLoading: boolean = true;
 
   private fetchData() {
